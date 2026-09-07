@@ -12,6 +12,11 @@ module.exports = withBundleAnalyzer({
   basePath: '',
   reactStrictMode: true,
 
-  // Export the Next.js app as static files for GitHub Pages
+  // GitHub Pages / static export
   output: 'export',
+
+  // GitHub Pages doesn't provide Next.js Image Optimization
+  images: {
+    unoptimized: true,
+  },
 });
