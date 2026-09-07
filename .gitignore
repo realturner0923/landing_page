@@ -33,3 +33,9 @@ local
 
 # vercel
 .vercel
+
+node_modules/
+.next/
+.env
+.env.local
+npm-debug.log*
